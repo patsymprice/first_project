@@ -1,7 +1,7 @@
 
-
-html {
-	background: url('../images/patsy_profile.jpg') no-repeat center center fixed;
+body {
+	margin: none;
+	background: url('../images/sky.jpeg') no-repeat center center fixed;
 /* the follow is the code to have the image display as a full page */
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
 	-moz-background-size: cover;
@@ -11,26 +11,55 @@ html {
 	background-attachment: fixed;
 }
 
-body {
-	   margin: none;
-}
-
-
 nav {
-	 background-color: #173B0B;
-	 float: right;
 	 font-family: 'Roboto Slab', serif;
-	 color: #000;
+	 font-size: 25px;
+	 width: 30%;
+	 padding: 15px;
+	 margin: 0 auto 20px auto;
+	 background-color: #0080FF;
+	 border-radius: 10px;
+
 }
 
 .bio {
       width: 30%;
-      background-color:  #173B0B;
-      float: right;
       padding: 15px;
       font-family: 'Roboto Slab', serif;
+      color: #FFF;
+      margin: 0 auto;
+      border-radius: 10px;
+	 background-color: #0080FF;
    }
+
+#subtext {
+          font-size: 20px;
+          font-family: 'Roboto Slab', serif;
+          font-style:italic;
+}
 
 a {
 	text-decoration: none;
+	color: #FFF;
 }
+
+#twitter {
+	      padding: 15px;
+	      margin: 0 auto;
+}
+
+img {
+	color: #000;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
